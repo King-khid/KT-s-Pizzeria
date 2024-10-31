@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/oringinal3.png'); /* Corrected the image path */
+    background-size: cover; /* Make the background image cover the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+   
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+h1 {
+    margin: 0;
+    color: #ffd700;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.tagline {
+    margin: 0;
+    color: #ffd700;
+}
+
+nav {
+    background-color: #444; /* Darker shade for contrast */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center items vertically */
+    padding: 15px 30px; /* More padding for a spacious look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column; /* Stack logo and tagline */
+    align-items: flex-start; /* Align items to the left */
+}
+
+.logo-container {
+    flex: 1; /* Allow the logo to take up space */
+    text-align: center; /* Center the logo */
+}
+
+.logo {
+    max-width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex; /* Flex layout for horizontal menu */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px; /* Spacing between links */
+}
+
+nav ul i{
+    color: #ffd700;
+    font-size: 1.2rem; /* Larger icons */
+    cursor: pointer;
+}
+
+nav ul i:hover {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Add padding for clickable area */
+    border-radius: 5px; /* Rounded corners */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #ffd700; /* Change text color on hover */
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Smooth background transition */
+}
+
+.btn:hover {
+    background: white; /* Subtle change on hover */
+    color: black;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* New centering styles */
+.main-content {
+    text-align: center; /* Center text */
+    margin: 20px 0; /* Add some vertical spacing */
+}
+
+.main-content h3 {
+    margin: 10px 0; /* Space between each heading */
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Set text color to white */
+    font-size: 3rem; /* Increase font size for main content headings */
+}
+
+.main-content .post {
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Set text color to white */
+    font-size: 2.5rem; /* Adjust this size to be larger than other text */
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 20px; /* More padding for spacing */
+    gap: 20px; /* Adds space between pizza items */
+}
+
+.menu-wrapper h3 {
+    color: white; /* Changed to a standout color */
+    margin: 10px 0; /* Space around headings */
+    font-size: 1.5rem; /* Increased font size */
+    text-align: center; /* Center align the headings */
+}
+
+.pizza {
+    flex: 0 1 250px; /* Adjusted width for better layout */
+    border: none; /* Removed border for a cleaner look */
+    padding: 15px; /* Added padding for aesthetics */
+    border-radius: 10px; /* Rounded corners */
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background for better contrast */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.pizza:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+.pizza img {
+    width: 100%; /* Full width to maintain consistency */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Match image corners to the box */
+}
+
+h2 {
+    text-align: center; /* Center the section title */
+    color: white; /* Standout color for the title */
+    margin-bottom: 30px; /* Space below the title */
+    font-size: 2rem; /* Larger font size for emphasis */
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px; /* Increased padding for better spacing */
+    background-color: #333;
+    color: white;
+}
+
+.social-media {
+    margin-bottom: 10px; /* Space between icons and text */
+}
+
+.social-media a {
+    color: #ffd700; /* Icon color */
+    margin: 0 10px; /* Space between icons */
+    font-size: 1.5rem; /* Size of the icons */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.social-media a:hover {
+    color: white; /* Change color on hover */
+}
+p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
